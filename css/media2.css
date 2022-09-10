@@ -1,0 +1,35 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1190px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 956px) {
+    .form-wrapper {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .wrapper {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+
+@media (max-width: 470px) {
+    .img1 img{
+        width: 357px;
+        height: 450px;
+    }
+}

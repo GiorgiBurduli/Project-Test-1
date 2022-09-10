@@ -1,0 +1,411 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    background-color: #212429;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 130px;
+}
+
+nav {
+    max-width: 50px;
+    width: 100%;
+}
+
+
+.form-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 452px;
+    width: 100%;
+    max-height: 593px;
+    height: 100%;
+   
+}
+
+.forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 435px;
+
+}
+
+.forms input {
+    width: 100%;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #E8EFFC;
+    border: 2px solid #E8EFFC;
+    outline: none;
+    caret-color: blueviolet;
+    padding-top: 20px;
+    padding-left: 36px;
+    padding-bottom: 15px;
+}
+
+.forms input::-webkit-input-placeholder {
+    color: #377DFF;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.forms input::-moz-placeholder {
+    color: #377DFF;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.forms input:-ms-input-placeholder {
+    color: #377DFF;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.forms input::-ms-input-placeholder {
+    color: #377DFF;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.forms input::placeholder {
+    color: #377DFF;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.forms :nth-child(4) {
+    border-radius: 5px;
+    padding: 0;
+    background-color: #377DFF;
+    border: 2px solid #377DFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.forms :nth-child(4):hover {
+    background-color: #ffd700;
+    border-color: #ffd700;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    border-color: none;
+}
+
+.forms h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #E8EFFC;
+}
+
+.forms a {
+    color: #377DFF;
+}
+.forms a:hover {
+    color: #ffd700;
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+
+
+.form-wrapper h2 {
+    font-size: 40px;
+    color: #E8EFFC;
+    text-align: center;
+}
+
+.form-wrapper p {
+    color: #77838F;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+
+
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+
+.forms {
+    -webkit-animation-name: anim1;
+            animation-name: anim1;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+}
+
+
+
+@-webkit-keyframes anim1 {
+	0%,
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+		-webkit-transform-origin: 50% 50%;
+		        transform-origin: 50% 50%;
+	}
+
+	15% {
+		-webkit-transform: translateX(-30px) rotate(-6deg);
+		        transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		-webkit-transform: translateX(15px) rotate(6deg);
+		        transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		-webkit-transform: translateX(-15px) rotate(-3.6deg);
+		        transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		-webkit-transform: translateX(9px) rotate(2.4deg);
+		        transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		-webkit-transform: translateX(-6px) rotate(-1.2deg);
+		        transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+
+@keyframes anim1 {
+	0%,
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+		-webkit-transform-origin: 50% 50%;
+		        transform-origin: 50% 50%;
+	}
+
+	15% {
+		-webkit-transform: translateX(-30px) rotate(-6deg);
+		        transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		-webkit-transform: translateX(15px) rotate(6deg);
+		        transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		-webkit-transform: translateX(-15px) rotate(-3.6deg);
+		        transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		-webkit-transform: translateX(9px) rotate(2.4deg);
+		        transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		-webkit-transform: translateX(-6px) rotate(-1.2deg);
+		        transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+/* sign in page */
+
+
+
+.forms2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 435px;
+
+}
+
+#email, #pwd {
+    width: 100%;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #E8EFFC;
+    border: 2px solid #E8EFFC;
+    outline: none;
+    caret-color: blueviolet;
+    padding-top: 20px;
+    padding-left: 36px;
+    padding-bottom: 15px;
+}
+
+
+
+.signin {
+    border-radius: 5px;
+    padding: 0;
+    background-color: #377DFF;
+    border: 2px solid #377DFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    height: 70px;
+}
+
+.forms2 input::-webkit-input-placeholder {
+    color: #377DFF;
+    font-size: 20px;
+}
+
+.forms2 input::-moz-placeholder {
+    color: #377DFF;
+    font-size: 20px;
+}
+
+.forms2 input:-ms-input-placeholder {
+    color: #377DFF;
+    font-size: 20px;
+}
+
+.forms2 input::-ms-input-placeholder {
+    color: #377DFF;
+    font-size: 20px;
+}
+
+.forms2 input::placeholder {
+    color: #377DFF;
+    font-size: 20px;
+}
+
+#rmb {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.rememberme {
+    font-size: 25px;
+    font-weight: 500;
+    color: #E8EFFC;
+    vertical-align: middle;
+    margin-left: 23px;
+}
+
+.forms2 a {
+    color: #377DFF;
+}
+.forms2 h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #E8EFFC;
+}
+
+.forms2 {
+    -webkit-animation-name: anim2;
+            animation-name: anim2;
+    -webkit-animation-duration: 1.2s;
+            animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+}
+
+
+
+@-webkit-keyframes anim2 {
+	0% {
+		-webkit-transform: scale(0);
+		        transform: scale(0);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+
+
+
+@keyframes anim2 {
+	0% {
+		-webkit-transform: scale(0);
+		        transform: scale(0);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+.forms2 a:hover {
+    color: #ffd700;
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+
+.signin:hover {
+    background-color: #ffd700;
+    border-color: #ffd700;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    border-color: none;
+}
