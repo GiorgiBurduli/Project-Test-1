@@ -2,6 +2,13 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
 * Autoprefixer: v10.4.7
+* Browsers: 
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
 
@@ -36,12 +43,8 @@ nav img {
 }
 
 form {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
     height: 290px;
     
 }
@@ -53,8 +56,7 @@ textarea, input {
     caret-color: gray;
     padding: 20px;
     border-radius: 15px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 textarea {
@@ -69,26 +71,6 @@ input, button {
     height: 60px;
     width: 100%;
     border-radius: 10px;
-}
-
-textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
-    color: #CECECE;
-    font-family: 'Poppins', sans-serif;
-}
-
-textarea::-moz-placeholder, input::-moz-placeholder {
-    color: #CECECE;
-    font-family: 'Poppins', sans-serif;
-}
-
-textarea:-ms-input-placeholder, input:-ms-input-placeholder {
-    color: #CECECE;
-    font-family: 'Poppins', sans-serif;
-}
-
-textarea::-ms-input-placeholder, input::-ms-input-placeholder {
-    color: #CECECE;
-    font-family: 'Poppins', sans-serif;
 }
 
 textarea::placeholder , input::placeholder {
@@ -106,30 +88,17 @@ button {
  button:hover {
     background-color: #ffd700;
     border-color: #ffd700;
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
-    -webkit-transition: 0.2s ease-in;
-    -o-transition: 0.2s ease-in;
+    transform: scale(1.1);
     transition: 0.2s ease-in;
     border-color: none;
     color: white;
  }
 
 .input-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     max-width: 350px;
     width: 100%;
     height: 100%;
@@ -144,8 +113,7 @@ iframe {
     width: 100%;
     height: 500px;
     border-radius: 50px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .s-2 {
     margin-bottom: 50px;
@@ -157,20 +125,12 @@ iframe {
 img {
     width: 60%;
     height: 100%;
-    -o-object-fit:cover;
-       object-fit:cover;
+    object-fit:cover;
     
     -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
     
-    -webkit-transform-origin:center;
-    
-        -ms-transform-origin:center;
-    
-            transform-origin:center;
-    -webkit-transform:perspective(800px) rotateY(25deg);
-            transform:perspective(800px) rotateY(25deg);
-    -webkit-transition:0.5s;
-    -o-transition:0.5s;
+    transform-origin:center;
+    transform:perspective(800px) rotateY(25deg);
     transition:0.5s;
   }
   .s-3container {
@@ -178,17 +138,9 @@ img {
     max-width:600px;
     max-height:350px;
     
-    display:-webkit-box;
-    
-    display:-ms-flexbox;
-    
     display:flex;
-    -webkit-box-pack:center;
-        -ms-flex-pack:center;
-            justify-content:center;
-    -webkit-box-align:center;
-        -ms-flex-align:center;
-            align-items:center;
+    justify-content:center;
+    align-items:center;
     gap:20px;
     
   }
@@ -196,7 +148,6 @@ img {
     opacity:0.3;
   }
   .s-3container img:hover {
-    -webkit-transform:perspective(800px)       rotateY(0deg);
-            transform:perspective(800px)       rotateY(0deg);
+    transform:perspective(800px)       rotateY(0deg);
     opacity:1;
   }
